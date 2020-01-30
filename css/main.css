@@ -1,0 +1,97 @@
+body{
+    margin: 0 ;
+    padding: 0;
+    font-family: sans-serif;
+    color: black;
+}
+header{
+    width:90%;
+    margin:0 auto;
+    overflow: hidden;
+}
+nav{
+    background-color:#6dd5ed;
+    position: absolute;
+    width: 90%;
+    margin:0 auto;
+    display: table-cell;
+    font-size: large;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    float:left;
+    display: border-box;
+    margin-right: 20px ;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+.nav:hover{
+    background: white;
+    border-bottom: 1px solid gainsboro;
+    transition: 0.5s ease-in-out;
+}
+nav ul li a:hover{
+    cursor: pointer;
+    font-size: x-large;
+    color:blue;
+    transition: 0.2s ease-in-out;
+    font-family: URW Chancery L, cursive;
+}
+.ulTwo{
+    display: inline-table;
+    width: 30%;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+}
+.ulTwo:hover{
+    color:blue;
+    font-family: URW Chancery L, cursive;
+}
+
+
+.fruit_list{
+    padding: 80px;
+    width:85%;
+    margin:0 auto;
+}
+img{
+    width:100%;
+    height:100%;
+}
+ol{
+    display: flex;
+    list-style: none;
+}
+ol li{
+    padding: 20px;
+    margin: 10px;
+}
+ol li a{
+    color: black;
+    text-decoration: none;
+}
+ol> a:hover{
+    cursor:pointer;
+    
+}
+
+.fruit_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #45a1ff;
+    color: #fff;
+}
