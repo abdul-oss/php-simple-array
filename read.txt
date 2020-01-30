@@ -1,0 +1,2 @@
+This webpage is very simple and basic 
+with no js only the concept of displaying an php arry 
